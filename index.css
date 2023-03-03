@@ -1,0 +1,107 @@
+
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
+}
+header {
+    padding: 10px ;
+    background-color: grey;
+
+    display: flex;
+    background-color:;
+    justify-content: space-between;
+}    
+ header li {
+    display: inline-block;
+    font-size: larger;
+    
+    
+}
+header li a {
+    color: yellowgreen;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+}
+nav li a:hover{
+    color:red;
+    transition: 1.5s;
+    cursor: pointer;
+    background-color: black;
+    box-: 5px 0px 10px :}
+    .photo{
+        width: 0px;
+        max-height: 0px;
+    }
+.one{
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 30px;
+    color: red;
+    font-size: 70px;
+    background-color: w
+}
+
+.gridr {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  color: rgb(135, 8, 8);
+  background-color: ;
+}
+.grid-item {
+  background-color: ;
+  border: 1px solid transparent;
+  padding: 60px;
+  font-size: 30px;
+  text-align: center;
+ }
+
+ 
+ .grid-item img{
+    border-radius: 50%;
+ }
+spam{
+    color:blue}
+    
+    .line{
+        display: flex;
+        padding : 10px;
+        color: red;
+        justify-content: space-between;
+        background-color:;
+
+
+    }
+    .item{
+        width: 450px;
+        padding: 5px;
+        border: 1px solid transparent;
+        margin-bottom: 30px;
+        color: ;
+        margin-right: 20px;
+        font-size: large;
+        font-weight: bolder;
+        
+
+    }
+    .item h1{
+        color: red;
+    }
+    .item2{
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+    .item3 a {
+     font-size: 40px;
+     padding: 20px;
+    }
+    .item3 h1{
+        font-size: large;
+    }
+    
