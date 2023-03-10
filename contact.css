@@ -1,0 +1,101 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color:#ececec;
+    height: 10vh;
+    width: 98vw;
+}
+header {
+    padding: 10px ;
+    background-color: #233142;
+    color: red;
+    display: flex;
+    background-color:;
+    justify-content: space-between;
+    height: 17vh;
+    width: 98vw;
+}    
+ header li {
+    display: inline-block;
+    font-size: larger;
+    
+    
+}
+header li a {
+    color: yellowgreen;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+}
+ header li a:hover{
+    color:red;
+    transition: 1.5s;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 5px 0px 10px ;}
+    spam{
+        color: blue;
+    }
+    .topic{
+        text-align: center;
+        border: 1px solid transparent;
+        padding: 30px;
+        color: red;
+        font-size: 70px;
+        background-color:
+    }
+    .grid {
+        display: grid;
+        padding: 10px;
+        color: red;
+        grid-template-columns: auto auto auto;
+        column-gap:10px ;
+        row-gap: 10px;
+        border: 5px solid black;}
+        
+        .grid-item{
+            background-color: #fbf2d5;
+            border: 1px solid transparent;
+            padding: 60px;
+            font-size: 30px;
+            text-align: center;
+           }
+    
+footer{
+        height: 10vh;
+        width: 99vw;
+    }
+       .line{
+            display: flex;
+            padding : 10px;
+            color: red;
+            justify-content: space-between;
+            background-color: #233142;
+        }
+    .item{
+            width: 450px;
+            padding: 5px;
+            border: 1px solid transparent;
+            margin-bottom: 30px;
+            color: greenyellow;
+            margin-right: 20px;
+            font-size: large;
+        }
+     .item h1{
+            color: red;
+        }
+         .item2{
+            margin-bottom: 20px;
+            margin: 10px;
+        }
+    .item3 a {
+         font-size: 40px;
+         padding: 20px;
+        }
+     .item3 h1{
+            font-size: large;
+        }
