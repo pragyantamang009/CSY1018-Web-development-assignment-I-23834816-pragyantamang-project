@@ -3,8 +3,9 @@ body{
     padding: 0px;
     margin: 0px;
     background-color:#ececec;
-    height: 10vh;
+    height: 20vh;
     width: 98vw;
+    box-sizing: border-box;
 }
 header {
     padding: 10px ;
@@ -50,20 +51,39 @@ header li a {
     }
     .grid {
         display: grid;
+        grid-template-columns: auto auto auto;
         padding: 10px;
         color: red;
-        grid-template-columns: auto auto auto;
         column-gap:10px ;
         row-gap: 10px;
-        border: 5px solid black;}
-        
-        .grid-item{
-            background-color: #fbf2d5;
-            border: 1px solid transparent;
-            padding: 60px;
-            font-size: 30px;
+        border: 1px solid transparent;
+        box-shadow:  10px 20px 30px 40px;}
+
+        .grid-item1{
+            border: 1px solid black;
             text-align: center;
-           }
+            background-color:;
+            border: 1px solid transparent;
+            padding: 50px;
+            font-size: 30px;
+        }
+
+        input[type=text], input[type=password] select[id=gender]{
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: white;
+            margin-bottom: 10px;
+        }
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            border-radius: 9px;
+            cursor: pointer;}
     
 footer{
         height: 10vh;
