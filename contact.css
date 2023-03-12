@@ -43,32 +43,56 @@ header li a {
     }
     .topic{
         text-align: center;
-        border: 1px solid transparent;
-        padding: 30px;
-        color: red;
-        font-size: 70px;
-        background-color:
+    border: 1px solid transparent;
+    padding: 30px;
+    color: red;
+    font-size: 20px;
+    position: relative;
+  animation-name: topic;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+       
+    }
+@keyframes topic {
+    0%   {color:blue; left:0px  }
+    25%  {color:#430f58 ; left:500px; }
+    50% {color:green; left:-500px;}
+    100% { color:black; left:500px}
     }
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 10px;
-        color: red;
+        color: black;
         column-gap:10px ;
         row-gap: 10px;
         border: 1px solid transparent;
-        box-shadow:  10px 20px 30px 40px;}
+        box-shadow:  10px 20px 30px 40px red;
+    }
 
         .grid-item1{
-            border: 1px solid black;
+            border: 1px solid transparent;
             text-align: center;
-            background-color:;
             border: 1px solid transparent;
             padding: 50px;
             font-size: 30px;
+            box-shadow: 5px 10px 15px 20px white;
         }
+        .grid-item1 h3{
+            animation-name: grid;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
 
-        input[type=text], input[type=password] select[id=gender]{
+        }
+      
+        @keyframes grid {
+            0%   {color:blue;   }
+            25%  {color:#430f58 ;  }
+            50% {color:green; }
+            100% { color:black; }}
+         
+
+        input[type=text], input[type=password] {
             width: 100%;
             padding: 15px;
             margin: 5px 0 22px 0;
@@ -76,18 +100,20 @@ header li a {
             border: none;
             background: white;
             margin-bottom: 10px;
+        
         }
         input[type=submit] {
-            background-color: #04AA6D;
-            color: white;
+            color: red;
             padding: 10px 20px;
             border: 1px solid transparent;
             border-radius: 9px;
-            cursor: pointer;}
+            cursor: pointer;
+            background-color: black;
+        }
     
 footer{
         height: 10vh;
-        width: 99vw;
+        width: 98vw;
     }
        .line{
             display: flex;
@@ -95,6 +121,7 @@ footer{
             color: red;
             justify-content: space-between;
             background-color: #233142;
+            box-shadow: 10px 20px 30px 40px black;
         }
     .item{
             width: 450px;

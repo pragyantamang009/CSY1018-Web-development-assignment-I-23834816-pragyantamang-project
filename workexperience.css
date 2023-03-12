@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     padding: 0px;
     margin: 0px;
+    background-color;
     height: 10vh;
     width:98vw;
     background-color:#e3e3e3 ;
@@ -38,111 +39,99 @@ header li a {
     transition: 1.5s;
     cursor: pointer;
     background-color: black;
-    box-shadow: 5px 0px 10px red;}
+    box-shadow: 5px 0px 10px ;}
 
     @media screen and (max-width: 800px) {
-        header li a {
-            display: none;
-            text-align: left;
-          }
+        header li a{
+          display: none;
+          text-align: left;
+        }
     }
-       
     
   
    
-.one{
+.topic{
     text-align: center;
     border: 1px solid transparent;
     padding: 30px;
     color: red;
+    font-size: 70px;
     font-size: 20px;
     position: relative;
-  animation-name: topic;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes topic {
-    0%   {color:blue; left:0px  }
-    25%  {color:#430f58 ; left:500px; }
-    50% {color:green; left:-500px;}
-    100% { color:black; left:500px}
-    
-    
-    
+    animation-name: topic;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+     
   }
-
-
-.gridr {
-  display: grid;
-  padding: 10px;
-  color: black;
-  grid-template-columns: auto auto auto;
-  column-gap:10px ;
-  row-gap: 15px;
-  box-shadow: 5px 10px 15px 30px red;
-}
-.grid-item{
-  border: 1px solid transparent;
-  padding: 50px;
-  font-size: 30px;
-  text-align: center;
-  grid-column-start: 1;
+@keyframes topic {
+  0%   {color:blue; left:0px  }
+  25%  {color:#430f58 ; left:500px; }
+  50% {color:green; left:-500px;}
+  100% { color:black; left:500px}
+  }
+.grid {
+    display: grid;
+    padding: 10px;
+    color: red;
+    grid-template-columns: auto auto auto;
+    column-gap:10px ;
+    row-gap: 10px;
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 15px 20px red;
+  }
+  .grid-item1{
+    grid-column-start: 1;
   grid-column-end: 3;
-  box-shadow: 5px 10px 15px 20px white;
-  animation-name: grid;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  
-
- }
- .grid-item2 {
-    padding:10px;
+    border: 1px solid transparent;
+    height: 100vh;
     box-shadow: 5px 10px 15px 20px white;
-     
-     
- }
- .grid-item3 {
-    grid-column: 1 / 4;
-    grid-row: 2;
-    justify-self: center;
-    margin: 30px;
-    padding: 70px;
-    height: 20vh;
-    width: 50vw;
+    text-align: center;
     font-size: 20px;
-    box-shadow: 5px 10px 15px 20px white;
- }
-
- .grid-item2 h1{
     animation-name: grid;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-   
- }
- .grid-item3 h2{
+  }
+  .grid-item1 li{
+font-size: 50px;}
+
+  .grid-item3 {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    justify-self: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    height: 20vh;
+    width: 50vw;
+    font-size: 30px;
+    box-shadow: 5px 10px 15px 20px white;
+    text-align: center;
+    font-size: 30px;
     animation-name: grid;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-  animation-duration: 10s;
+
  }
- @keyframes grid {
+  .grid-item2{
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 15px 20px white;
+    text-align: center;
+    font-size: 20px;
+    animation-name: grid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+  }  
+  .grid-item2 li{
+    font-size: 40px;
+  }
+  @keyframes grid {
     0%   {color:blue;   }
     25%  {color:#430f58 ;  }
     50% {color:green; }
-    100% { color:black; }
+    100% { color:black; }}
  
- }
-@media screen and(max-width:800px){
-    .gridr{
-        flex-direction: row;
-
-    }
-}
-    
-   
- 
-
-spam{
+ spam{
     color:blue
 }
 footer{
@@ -172,7 +161,6 @@ footer{
     }
  .item h1{
         color: red;
-     
     }
      .item2{
         margin-bottom: 20px;
@@ -184,4 +172,5 @@ footer{
     }
  .item3 h1{
         font-size: large;
- }
+    }
+    

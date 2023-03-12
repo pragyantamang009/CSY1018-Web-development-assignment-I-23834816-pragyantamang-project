@@ -6,7 +6,7 @@ body{
     background-color;
     height: 10vh;
     width:98vw;
-    backgroung
+    background-color: 
 
    
 }
@@ -41,11 +41,7 @@ header li a {
     cursor: pointer;
     background-color: black;
     box-shadow: 5px 0px 10px ;}
-    
-    
-    
-  
-   
+     
 .topic{
     text-align: center;
     border: 1px solid transparent;
@@ -86,9 +82,6 @@ footer{
         color: red;
         justify-content: space-between;
         background-color: #233142;
-        
-
-
     }
 .item{
         width: 450px;
