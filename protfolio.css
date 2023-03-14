@@ -1,12 +1,12 @@
 
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 0px;
     margin: 0px;
     background-color;
     height: 10vh;
     width:98vw;
-    background-color: 
+    background-color:#e3e3e3;
 
    
 }
@@ -48,8 +48,23 @@ header li a {
     padding: 30px;
     color: red;
     font-size: 70px;
-    background-color:
+    position: relative;
+    animation-name: topic;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+    
 }
+
+
+@keyframes topic {
+    0%   {color:blue; left:0px  }
+    25%  {color:#430f58 ; left:500px; }
+    50% {color:green; left:-500px;}
+    100% { color:black; left:500px}
+       
+    
+  }
 .grid {
     display: grid;
     padding: 10px;
@@ -57,16 +72,21 @@ header li a {
     grid-template-columns: auto auto auto;
     column-gap:10px ;
     row-gap: 10px;
-    border: 5px solid black;
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 15px 20px red;
+   
   }
+  
   .grid-item1{
     grid-row-start:1;
     grid-row-end: 4;
-    border: 5px solid black;
+    border: 1px solid transparent;
     height: 100vh;
+    box-shadow: 5px 10px 15px 20px white;
   }
   .grid-item{
-    border: 5px solid black;
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 15px 20px white;
   }
 spam{
     color:blue;
