@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 10vh;
+    width:98vw;
+    background-color:#e3e3e3 ;
+
+   
+}
+header {
+    padding: 10px ;
+    background-color:  #233142;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 17vh;
+    width: 98vw;
+}    
+ header li {
+    display: inline-block;
+    font-size: larger;
+    
+    
+}
+header li a {
+    color: yellowgreen;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+}
+ header li a:hover{
+    color:red;
+    transition: 1.5s;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 5px 0px 10px red;}
+
+    @media screen and (max-width: 800px) {
+        header li a {
+            display: none;
+          }
+    }
+       
+    
+  
+   
+.topic{
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 30px;
+    color: red;
+    font-size: 20px;
+    position: relative;
+  animation-name: topic;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes topic {
+    0%   {color:blue; left:0px  }
+    25%  {color:#430f58 ; left:500px; }
+    50% {color:green; left:-500px;}
+    100% { color:black; left:500px} 
+  }
+  .grid {
+    display: grid;
+    padding: 10px;
+    color: black;
+    grid-template-columns: auto auto auto;
+    column-gap:10px ;
+    row-gap: 15px;
+    box-shadow: 5px 10px 15px 30px red;
+  }
+spam{
+    color:blue
+}
+footer{
+    height: 10vh;
+    width: 98vw;
+}
+    
+.line{
+        display: flex;
+        padding : 10px;
+        color: red;
+        justify-content: space-between;
+        background-color: #233142;
+        box-shadow: 10px 20px 30px 40px black;
+    }
+.item{
+        padding: 5px;
+        border: 1px solid transparent;
+        margin-bottom: 30px;
+        color: greenyellow;
+        margin-right: 20px;
+        font-size: large;
+    }
+ .item h1{
+        color: red;
+     
+    }
+     .item2{
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+.item3 a {
+     font-size: 40px;
+     padding: 20px;
+    }
+ .item3 h1{
+        font-size: large;
+ }
