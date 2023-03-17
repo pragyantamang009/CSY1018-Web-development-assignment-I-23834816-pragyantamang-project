@@ -12,10 +12,9 @@ body{
 }
 header {
     padding: 10px ;
-    background-color:  #233142;
-    color: red;
+    background-color: #233142;
+    color: yellowgreen;
     display: flex;
-    background-color:;
     justify-content: space-between;
     height: 17vh;
     width: 98vw;
@@ -41,6 +40,15 @@ header li a {
     cursor: pointer;
     background-color: black;
     box-shadow: 5px 0px 10px ;}
+    @media only screen and (max-width:900px){
+        header li a{
+            display: none;
+            
+        }
+        header{
+          width:380vw;      }
+      }
+   
      
 .topic{
     text-align: center;
@@ -88,8 +96,46 @@ header li a {
     border: 1px solid transparent;
     box-shadow: 5px 10px 15px 20px white;
   }
-spam{
-    color:blue;
+  .grid-item1 img{
+    height: 110%;
+  }
+  .grid-item img{
+    width: 100%;
+  }
+  @media only screen and (max-width:900px){
+   .topic{
+    width: 30vw;
+   }
+    .grid{
+        display:grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        font-size: xx-large;
+        width: 90vh;
+        box-shadow: none;
+            }
+ .grid .grid-item{
+    width: 70%;
+ }
+ .grid .grid-item1 img{
+    width: 60%;
+ }
+
+            
+    
+
+ .grid .grid-item{
+    width: 80%;
+}
+.line{
+    width: 370vw;
+    
+}
+.line .item{
+    margin: 10px;
+
+}
+
 }
 footer{
     height: 10vh;
@@ -99,7 +145,7 @@ footer{
 .line{
         display: flex;
         padding : 10px;
-        color: red;
+        color: greenyellow;
         justify-content: space-between;
         background-color: #233142;
     }
@@ -112,20 +158,18 @@ footer{
         margin-right: 20px;
         font-size: large;
     }
- .item h1{
-        color: red;
-    }
+ 
      .item2{
         margin-bottom: 20px;
         margin: 10px;
     }
 .item3 a {
-     font-size: 40px;
-     padding: 20px;
+    font-size: 20px;
+    padding: 20px;
+    color: yellowgreen;
+    text-decoration: none;
     }
- .item3 h1{
-        font-size: large;
-    }
+ 
     
 
         
