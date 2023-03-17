@@ -10,7 +10,7 @@ body {
 header {
     padding: 10px ;
     background-color: #233142;
-    color: red;
+    color: yellowgreen;
     display: flex;
     justify-content: space-between;
     height: 17vh;
@@ -37,9 +37,15 @@ header li a {
     cursor: pointer;
     background-color: black;
     box-shadow: 5px 0px 10px ;}
-    spam{
-        color: blue;
-    }
+    @media only screen and (max-width:900px){
+        header li a{
+            display: none;
+            
+        }
+        header{
+          width:380vw;      }
+      }
+   
     .topic{
         text-align: center;
     border: 1px solid transparent;
@@ -109,7 +115,33 @@ header li a {
             border-radius: 9px;
             cursor: pointer;
             background-color: black;
+        } 
+        .grid-item0 img{
+            width: 10%;
         }
+        .grid-item00 img{
+            width: 5%;
+        }
+        @media only screen and (max-width:900px){
+   
+            .grid{
+                display:grid;
+                grid-template-columns: auto;
+                padding: 10px;
+                font-size: xx-large;
+                width: 90vh;
+            }
+    
+    .line{
+        width: 370vw;
+        
+    }
+    .line .item{
+        margin: 10px;
+    
+    }
+    
+    }
     
 footer{
         height: 10vh;
@@ -118,7 +150,7 @@ footer{
        .line{
             display: flex;
             padding : 10px;
-            color: red;
+            color: yellowgreen;
             justify-content: space-between;
             background-color: #233142;
             box-shadow: 10px 20px 30px 40px black;
@@ -132,17 +164,14 @@ footer{
             margin-right: 20px;
             font-size: large;
         }
-     .item h1{
-            color: red;
-        }
          .item2{
             margin-bottom: 20px;
             margin: 10px;
         }
     .item3 a {
-         font-size: 40px;
-         padding: 20px;
+        font-size: 20px;
+        padding: 20px;
+        color: yellowgreen;
+        text-decoration: none;
         }
-     .item3 h1{
-            font-size: large;
-        }
+    
