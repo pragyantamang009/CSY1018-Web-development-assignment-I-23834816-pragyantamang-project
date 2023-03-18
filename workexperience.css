@@ -8,6 +8,9 @@ body{
 
  
 }
+.logo{
+  display:none;
+}
 header {
   padding: 10px ;
   background-color:  #233142;
@@ -44,6 +47,12 @@ header li a:hover{
           display: none;
           
       }
+      .logo{
+        display: block;
+        padding: 40px;
+        width: auto; 
+        
+    }
       header{
         width:380vw;      }
     }
@@ -147,6 +156,8 @@ font-size: 50px;}
           font-size: xx-large;
           width: 90vh;
           place-items: center;
+          align-items: center;
+          justify-content: center;
               }
    .grid .grid-item1{
       width: 90%;

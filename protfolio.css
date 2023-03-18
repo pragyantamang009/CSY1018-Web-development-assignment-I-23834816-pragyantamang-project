@@ -3,12 +3,14 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0px;
     margin: 0px;
-    background-color;
     height: 10vh;
     width:98vw;
     background-color:#e3e3e3;
 
    
+}
+.logo{
+    display:none;
 }
 header {
     padding: 10px ;
@@ -43,6 +45,11 @@ header li a {
     @media only screen and (max-width:900px){
         header li a{
             display: none;
+        }
+        .logo{
+            display: block;
+            padding: 40px;
+            width: auto; 
             
         }
         header{
@@ -97,7 +104,7 @@ header li a {
     box-shadow: 5px 10px 15px 20px white;
   }
   .grid-item1 img{
-    height: 110%;
+    height: 117%;
   }
   .grid-item img{
     width: 100%;
@@ -113,9 +120,12 @@ header li a {
         font-size: xx-large;
         width: 90vh;
         box-shadow: none;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
             }
- .grid .grid-item{
-    width: 70%;
+ .grid .grid-item img{
+    width: 90%;
  }
  .grid .grid-item1 img{
     width: 60%;

@@ -8,6 +8,9 @@ body{
 
    
 }
+.logo{
+    display:none;
+}
 header {
     padding: 10px ;
     background-color:  #233142;
@@ -43,6 +46,13 @@ header li a {
             display: none;
             
         }
+        .logo{
+            display: block;
+            padding: 40px;
+            width: auto; 
+            
+        }
+
         header{
           width:380vw;      }
       }
@@ -61,6 +71,7 @@ header li a {
   animation-name: topic;
   animation-duration: 15s;
   animation-iteration-count: infinite;
+  box-shadow: 10px 20px 30px white;
 }
 
 @keyframes topic {
@@ -151,6 +162,9 @@ header li a {
         padding: 10px;
         font-size: xx-large;
         width: 79vh;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
             }
  .gridr .grid-item{
     width: 60%;
@@ -172,7 +186,7 @@ header li a {
     grid-column:1;
     grid-row: 3;
     font-size: xx-large;
-    height: 70%;
+    height: 75%;
     padding-left: 10px;
     width:80%;
     }
@@ -187,6 +201,7 @@ header li a {
 }
 
 }
+
 footer{
     height: 10vh;
     width: 98vw;
