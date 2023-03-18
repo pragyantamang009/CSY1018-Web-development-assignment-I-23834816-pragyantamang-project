@@ -7,6 +7,10 @@ body {
     width: 98vw;
     box-sizing: border-box;
 }
+
+.logo{
+    display:none;
+}
 header {
     padding: 10px ;
     background-color: #233142;
@@ -40,6 +44,12 @@ header li a {
     @media only screen and (max-width:900px){
         header li a{
             display: none;
+            
+        }
+        .logo{
+            display: block;
+            padding: 40px;
+            width: auto; 
             
         }
         header{
@@ -108,9 +118,10 @@ header li a {
             margin-bottom: 10px;
         
         }
-        input[type=submit] {
+        button[type=button] {
             color: red;
-            padding: 10px 20px;
+            padding: 5px 10px ;
+            width: 80px;
             border: 1px solid transparent;
             border-radius: 9px;
             cursor: pointer;
@@ -130,6 +141,9 @@ header li a {
                 padding: 10px;
                 font-size: xx-large;
                 width: 90vh;
+                place-items: center;
+                align-items: center;
+                justify-content: center;
             }
     
     .line{
